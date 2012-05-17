@@ -74,72 +74,72 @@
                     <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Center">
                         <TextBlock Text="3" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding ThreeCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding ThreePercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Center">
                         <TextBlock Text="4" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding FourCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding FourPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="3" VerticalAlignment="Center">
                         <TextBlock Text="5" FontSize="24" FontWeight="Bold" Width="40" />
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding FiveCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding FivePercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="4" VerticalAlignment="Center">
                         <TextBlock Text="6" FontSize="24" FontWeight="Bold" Width="40" />
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding SixCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding SixPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="5" VerticalAlignment="Center">
                         <TextBlock Text="7" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding SevenCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding SevenPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="6" VerticalAlignment="Center">
                         <TextBlock Text="8" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding EightCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding EightPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="7" VerticalAlignment="Center">
                         <TextBlock Text="9" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding NineCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding NinePercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="8" VerticalAlignment="Center">
                         <TextBlock Text="10" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding TenCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding TenPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="9" VerticalAlignment="Center">
                         <TextBlock Text="11" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding ElevenCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding ElevenPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="10" VerticalAlignment="Center">
                         <TextBlock Text="12" FontSize="24" FontWeight="Bold" Width="40"/>
                         <TextBlock Text="Count: " FontSize="24"/>
-                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="{Binding TwelveCount}" FontSize="24" Width="50"/>
                         <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
-                        <TextBlock Text="{Binding TwoPercentage, StringFormat=p0}" FontSize="24" Width="75"/>
+                        <TextBlock Text="{Binding TwelvePercentage, StringFormat=p0}" FontSize="24" Width="75"/>
                     </StackPanel>
                 </Grid>
             </controls:PanoramaItem>

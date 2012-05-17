@@ -443,7 +443,7 @@ namespace RollCounter
         /// </summary>
         private void UpdatePercentages()
         {
-            var totalRolls = _rolls.Count;
+            float totalRolls = _rolls.Count;
             TwoPercentage = TwoCount / totalRolls;
             ThreePercentage = ThreeCount / totalRolls;
             FourPercentage = FourCount / totalRolls;

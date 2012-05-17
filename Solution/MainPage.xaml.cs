@@ -31,27 +31,27 @@ namespace RollCounter
 
         private void Three_Click(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.AddRoll(2);
+            App.ViewModel.AddRoll(3);
         }
 
         private void Four_Click(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.AddRoll(2);
+            App.ViewModel.AddRoll(4);
         }
 
         private void Five_Click(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.AddRoll(2);
+            App.ViewModel.AddRoll(5);
         }
 
         private void Six_Click(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.AddRoll(2);
+            App.ViewModel.AddRoll(6);
         }
 
         private void Seven_Click(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.AddRoll(2);
+            App.ViewModel.AddRoll(7);
         }
 
         private void Eight_Click(object sender, RoutedEventArgs e)
@@ -81,7 +81,7 @@ namespace RollCounter
 
         private void Undo_Click(object sender, RoutedEventArgs e)
         {
-
+            App.ViewModel.UndoRoll();
         }
     }
 }
