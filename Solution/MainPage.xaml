@@ -1,0 +1,148 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="RollCounter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+ 
+        <!--Panorama control-->
+        <controls:Panorama Title="roll counter">
+ 
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="enter roll">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Content="2" Grid.Row="0" Grid.Column="0" x:Name="Two" Click="Two_Click"/>
+                    <Button Content="3" Grid.Row="0" Grid.Column="1" x:Name="Three" Click="Three_Click"/>
+                    <Button Content="4" Grid.Row="0" Grid.Column="2" x:Name="Four" Click="Four_Click"/>
+                    <Button Content="5" Grid.Row="1" Grid.Column="0" x:Name="Five" Click="Five_Click"/>
+                    <Button Content="6" Grid.Row="1" Grid.Column="1" x:Name="Six" Click="Six_Click"/>
+                    <Button Content="7" Grid.Row="1" Grid.Column="2" x:Name="Seven" Click="Seven_Click"/>
+                    <Button Content="8" Grid.Row="2" Grid.Column="0" x:Name="Eight" Click="Eight_Click"/>
+                    <Button Content="9" Grid.Row="2" Grid.Column="1" x:Name="Nine" Click="Nine_Click"/>
+                    <Button Content="10" Grid.Row="2" Grid.Column="2" x:Name="Ten" Click="Ten_Click"/>
+                    <Button Content="11" Grid.Row="3" Grid.Column="0" x:Name="Eleven" Click="Eleven_Click"/>
+                    <Button Content="12" Grid.Row="3" Grid.Column="1" x:Name="Twelve" Click="Twelve_Click"/>
+                    <Button Content="Undo" Grid.Row="3" Grid.Column="2" x:Name="Undo" Click="Undo_Click"/>
+                </Grid>
+            </controls:PanoramaItem>
+ 
+            <controls:PanoramaItem Header="statistics">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" VerticalAlignment="Center">
+                        <TextBlock Text="2" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Center">
+                        <TextBlock Text="3" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Center">
+                        <TextBlock Text="4" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="3" VerticalAlignment="Center">
+                        <TextBlock Text="5" FontSize="24" FontWeight="Bold" Width="40" />
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="4" VerticalAlignment="Center">
+                        <TextBlock Text="6" FontSize="24" FontWeight="Bold" Width="40" />
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="5" VerticalAlignment="Center">
+                        <TextBlock Text="7" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="6" VerticalAlignment="Center">
+                        <TextBlock Text="8" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="7" VerticalAlignment="Center">
+                        <TextBlock Text="9" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="8" VerticalAlignment="Center">
+                        <TextBlock Text="10" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="9" VerticalAlignment="Center">
+                        <TextBlock Text="11" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="10" VerticalAlignment="Center">
+                        <TextBlock Text="12" FontSize="24" FontWeight="Bold" Width="40"/>
+                        <TextBlock Text="Count: " FontSize="24"/>
+                        <TextBlock Text="{Binding TwoCount}" FontSize="24" Width="50"/>
+                        <TextBlock Text="Percentage: " FontSize="24" Margin="20 0 0 0"/>
+                        <TextBlock Text="{Binding TwoPercentage}" FontSize="24" Width="50"/>
+                    </StackPanel>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+</phone:PhoneApplicationPage>
