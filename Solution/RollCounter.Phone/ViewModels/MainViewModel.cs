@@ -1,8 +1,9 @@
-﻿using System;
+﻿using RollCounter.Shared;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace RollCounter
+namespace RollCounter.Phone.ViewModels
 {
     /// <summary>
     /// Our main view model

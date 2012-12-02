@@ -12,8 +12,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using RollCounter.Phone.ViewModels;
 
-namespace RollCounter
+namespace RollCounter.Phone
 {
     public partial class App : Application
     {

@@ -1,4 +1,4 @@
-﻿namespace RollCounter
+﻿namespace RollCounter.Shared
 {
     public class Sum
     {

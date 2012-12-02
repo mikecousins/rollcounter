@@ -11,7 +11,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace RollCounter
+namespace RollCounter.Phone
 {
     public partial class MainPage : PhoneApplicationPage
     {
