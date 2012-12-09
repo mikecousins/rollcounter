@@ -20,9 +20,9 @@
     </SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
-    <XapFilename>RollCounter.xap</XapFilename>
+    <XapFilename>RollCounter.Phone.xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
-    <SilverlightAppEntry>RollCounter.App</SilverlightAppEntry>
+    <SilverlightAppEntry>RollCounter.Phone.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
   </PropertyGroup>
